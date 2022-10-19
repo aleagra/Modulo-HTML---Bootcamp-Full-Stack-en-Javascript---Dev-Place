@@ -1,0 +1,286 @@
+    @import url(https://fonts.googleapis.com/css?family=Oswald:400,700);
+    @import url(https://fonts.googleapis.com/css?family=Lato:100,300,400);
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Lato', sans-serif;
+        font-weight: bold;
+    }
+    body{
+        background-color: #e2dedb;
+        overflow-x: hidden;
+    }
+    /*----------------------------------Navbar----------------------------*/
+    .nav{
+        background-color: #84b6f4;
+    }
+    ul{
+        display: flex;
+        text-align: center;
+        width: 100%;
+        list-style: none;
+        justify-content: space-around;
+    }
+    a{
+        text-decoration: none;
+        color:#f7f7f7;
+    }
+    li a:hover{
+        border-bottom: 2px solid #f7f7f7;
+    }
+    li{
+        
+        margin: 20px 0 20px 0;
+
+    }
+    /* -----------------------------Header--------------------------------*/
+    .header{
+        background-color: black;
+    }
+    .title{
+    
+        text-align: center;
+        text-transform: uppercase;
+        color: #84b6f4;
+        text-shadow: -3px 3px #ffffff, -3px -3px #ffffff, 3px -3px #ffffff, 3px 3px #f3f3f2, 6px 6px #84b6f4;
+    }
+    .container-title {
+        z-index: 1;
+        position: relative;
+        top: 120px;
+        right: 40px;
+    }
+
+    .sub-title{
+        text-transform: uppercase;  
+        margin: 0;
+        text-align: center;
+        font-size: 30px;
+    
+    }
+    .img{
+        width: 53.125rem;
+        display: block;
+        margin: auto;
+        z-index: -1;
+    }
+    #home{
+        background-color: #77dd77;
+    }
+    form{
+
+    
+        font-size: 20px;
+    }
+    .label{
+        display: block;
+        width: 100%;
+        padding: 4px;
+    }
+    .sobrenosotros {
+        width: 100%;
+        letter-spacing: 1px;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        margin: 2rem;
+    }
+    .container-sobre-nosotros{
+    width: 60%;
+    margin: 20px;
+    }
+    .parraf{
+        letter-spacing: 1px;
+        font-size: 16px;
+        margin: 20px;
+    
+    }
+    .parrafo{
+        width: 100%;
+        letter-spacing: 1px;
+        display: flex;
+        justify-content: center;
+        background-color:#84b6f4;
+        text-align: center;
+        color: #f7f7f7;
+    
+    }
+    .container-parrafo{
+        width: 60%;
+        margin: 20px;
+        margin: 4rem;
+    }
+    footer{
+        background-color: #84b6f4;
+
+    }
+    .container-sub-title{
+        margin-bottom: 30px;
+    }
+    .container-footer{
+        display: flex;
+        text-align: center;
+        width: 100%;
+        list-style: none;
+        justify-content: space-around;
+        
+    }
+    .text-footer{
+        margin: 20px 0 20px 0;
+    }
+
+    #form {
+        position: relative;
+       
+    
+    }
+    
+    input {
+        font-family: 'Lato', sans-serif;
+      
+        font-size: 0.875em;
+        background: transparent;
+        outline: none;
+        color: #726659;
+        
+        border: solid 1px #b3aca7;
+        border-bottom: none;
+        
+        transition: all 0.3s ease-in-out;
+        -webkit-transition: all 0.3s ease-in-out;
+        -moz-transition: all 0.3s ease-in-out;
+        -ms-transition: all 0.3s ease-in-out;
+    }
+    
+    input:hover {
+        background: #b3aca7;
+        color: #e2dedb;
+
+    }
+    .sumbit:hover{
+        cursor: pointer;
+    }
+    textarea {
+      
+        background: transparent;
+        outline: none;
+        color: #726659;
+        font-family: 'Lato', sans-serif;
+        font-size: 0.875em;
+        
+        border: solid 1px #b3aca7;
+        
+        transition: all 0.3s ease-in-out;
+        -webkit-transition: all 0.3s ease-in-out;
+        -moz-transition: all 0.3s ease-in-out;
+        -ms-transition: all 0.3s ease-in-out;
+    }
+    
+    textarea:hover {
+        background: #b3aca7;
+        color: #f7f7f7;
+    }
+    
+    #submit {
+       
+        
+        padding: 0;
+  
+        
+        font-family: 'Lato', sans-serif;
+        font-size: 0.875em;
+        color: #b3aca7;
+        
+        outline:none;
+        cursor: pointer;
+        
+        border: solid 1px #b3aca7;
+        border-top: none;
+    }
+    
+    #submit:hover {
+        color: #e2dedb;
+    }
+.part{
+    background-color: white;
+}
+.grid{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 500px;
+    grid-template-rows: 40px 40px 100px 40px;
+
+   justify-content: center;
+}
+.container-grid{
+    display: flex;
+    justify-content: center;
+}
+
+    #home {
+        font-family: 'Lato', sans-serif;
+        background: #e2dedb;
+        color: #b3aca7;
+        position: relative;
+        font-size: 2.3em;
+        text-align: center;
+        letter-spacing: 7px;
+        margin: 5rem;
+    }
+
+          
+    
+    
+    
+
+    .grid-logo{
+            display: grid;
+            grid-template-columns: 33% 33% 33%;
+            grid-template-rows: 50% 50%;
+           row-gap: 30px;
+           margin: 20px;
+    
+          }
+.grid-logo img{
+  margin: auto;
+    width: 300px;
+    height: 200px;
+    gap: 20px;
+
+}
+.grid-logo div{
+    display: block;
+    margin: auto;
+
+}
+          
+@media only screen and (min-width: 450px) {
+
+    .nav{
+        display: none;
+    }
+    .container-sobre-nosotros{
+        width: 100%;
+        margin: 20px;
+        }
+        .img{
+            width: 23rem;
+        }
+        .title{
+        display: none;  }
+        .grid{
+            width: 100%;
+            grid-template-columns: 440px;
+        }
+        .sobrenosotros{
+            margin: 0;
+            padding: 0;
+        }
+        .container-parrafo {
+
+       margin: 10px;
+       width: 100%;
+        }
+}
+   
