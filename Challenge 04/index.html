@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenge-03</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="img/bootcamp.jpg" type="image/ico">
+    <link rel="stylesheet" href="boostrap.css">
+
+
+</head>
+<body>
+   
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+     
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarScroll">
+            <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#sobrenosotros">Sobre nosotros</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#paraempresas">Para empresas</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Partners.html">Nuestros Partners</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="precios.html">Precios</a>
+              </li>
+                
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Buscar">
+              <button class="btn btn-outline-success" type="submit">Buscar</button>
+            </form>
+          </div>
+        </div>
+        
+      </nav>
+   
+        <div class="container-title">
+        <H1 class="title">Challenge - 03</H1>
+        </div>
+
+
+    <div id="carouselExampleControls" class="carousel slide clear" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="Img/bootcamp.jpg" class="d-block img" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="Img/bootcamp.jpg" class="d-block img" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="Img/bootcamp.jpg" class="d-block img" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Siguiente</span>
+        </button>
+      </div>
+    
+
+    <section id="sobrenosotros" class="sobrenosotros">
+        <div class="container-sobre-nosotros">
+            <div class="container-sub-title">
+        <h2 class="sub-title">Sobre Nosotros</h2>
+    </div>
+        <p class="parraf">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur aut libero incidunt tempore ea vel deleniti, quos natus? Aspernatur laborum, excepturi veritatis ab fugiat obcaecati culpa sit quaerat saepe nisi! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi, dolore? Illo, ab, nobis iusto numquam beatae saepe fugiat est doloribus repellendus nihil reprehenderit repudiandae, maiores atque cumque! Iste, cumque distinctio. Lorem ipsum dolor sit amet consectetur adipisicing elit. Et pariatur cupiditate velit voluptatem incidunt illo consequuntur itaque reiciendis magnam, tempora possimus perspiciatis temporibus. Blanditiis excepturi eligendi quas ut sit voluptate.  </p>
+    </div>
+    </section>
+
+    <section class="parrafo" id="paraempresas">
+        <div class="container-parrafo">
+            <div class="container-sub-title">
+        <h2 class="sub-title">Para Empresas</h2>
+        </div>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia unde animi libero adipisci enim. Ullam dolorum voluptatibus est dolorem repellat exercitationem, iure quam. Est atque similique blanditiis in molestias iste?Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate excepturi dolor obcaecati eum. Suscipit sunt, explicabo incidunt id dolore natus dolores culpa commodi impedit porro illum, quas aspernatur ex rerum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, iure, quaerat deleniti nemo asperiores nam obcaecati cum necessitatibus, perferendis consectetur esse sapiente soluta eum fugiat! Libero ratione iusto error. Eligendi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident ducimus aliquam laborum maxime culpa, expedita ipsum? Quis veritatis iste esse, aperiam et corrupti? Pariatur in ab repellendus consectetur, maxime ipsa. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio laboriosam suscipit nesciunt quisquam autem nisi placeat mollitia tempore molestias vitae dolorum est voluptas necessitatibus deleniti repellendus quia, ipsa laudantium ex? Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque aliquam dolore laborum earum, porro ratione ut iure vel, rerum totam hic voluptatibus necessitatibus esse dolores facilis maiores quidem natus illo.   </p>
+         </div>
+        </section>
+
+    <section id="home" class="section-grid"> 
+        <div class="grid">
+            <form class="container-grid">
+               <div class="container grid" >
+           <input type="text" placeholder="Nombre">
+           <input  type="text" placeholder="E-Mail">
+           <textarea type="text" placeholder="Mensaje"></textarea>
+           <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+    Enviar
+  </button>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title bold" id="exampleModalLabel ">Eror al enviar el formulario</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          Nuestro sitio esta en mantenimiento.
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+          <button type="button" class="btn btn-primary">Aceptar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+       </form>
+       <div >
+     </form>
+    </section>
+
+
+    <footer>
+       
+        <div class="container-footer">
+            <a class="text-footer" href="index.html">Inicio</a> 
+            <a class="text-footer" href="#">Sobre nosotros</a>
+            <a class="text-footer" href="https://ar.linkedin.com/">Linkedin</a>
+            <a class="text-footer" href="https://www.instagram.com/?hl=es">Instagram</a>                                                        
+        </div>
+    </footer>
+
+
+    
+
+  
+  <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+</body>
+</html>                                                     

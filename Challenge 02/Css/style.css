@@ -1,0 +1,90 @@
+@import url(https://fonts.googleapis.com/css?family=Oswald:400,700);
+*{
+    margin: 0;
+    padding: 0;
+}
+.nav{
+    background-color: #84b6f4;
+}
+ul{
+    text-align: center;
+    width: 100%;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color:white;
+}
+li{
+    margin: 20px;
+    display: inline-block; 
+    font-weight: bold;
+}
+.header{
+    background-color: black;
+}
+.tittle{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    color: #84b6f4;
+    text-shadow: -3px 3px #ffffff, -3px -3px #ffffff, 3px -3px #ffffff, 3px 3px #f3f3f2, 6px 6px #84b6f4;
+}
+
+.sub-tittle{
+    text-transform: uppercase;  
+    margin: 0;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.img{
+    width: 850px;
+    display: block;
+    margin: auto;
+}
+#home{
+    background-color: #77dd77;
+}
+form{
+
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+.label{
+    display: block;
+    width: 100%;
+    padding: 4px;
+}
+#sobrenosotros{
+    background-color: #fdfd96;
+}
+.parraf{
+    font-size: 15px;
+    margin: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: red;
+
+}
+.parrafo{
+    background-color:black;
+    font-size: 17px;
+    position: relative;
+    margin: 0 auto 1em;
+    padding: 1em 1em .25em 1em;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+}
+footer{
+    background-color: #ff6961;
+    display: block;
+
+}
+.container-footer{
+    padding: 20px;
+    text-align: center;
+}
+.text-footer{
+    margin: 0px 0px 80px 80px;
+}
