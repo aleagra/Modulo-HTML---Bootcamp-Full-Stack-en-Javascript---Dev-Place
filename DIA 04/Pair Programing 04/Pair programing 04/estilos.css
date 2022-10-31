@@ -1,0 +1,44 @@
+body{
+    background-image: url(fondo3.jpg);
+    background-size: no-repeat;
+    
+}
+a{
+    text-decoration: none;
+    transition: color .2s ease-out;
+}
+.grid-price{
+   
+    background-color: transparent;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 49% 49%;
+    row-gap: 2vw;
+}
+.abajo{
+    position: relative;
+    top: 40vw;
+  
+}   
+.center{
+    text-align: center;
+    text-transform: uppercase;
+} 
+.card{
+    border: transparent;                
+    background-color: transparent;
+
+    font-size: 1vw;
+}                                           
+.mayus{
+position: relative;
+left: 5vw;
+color: white!important;
+font-size: 1.3vw;
+}
+
+.button{
+    border: 0px;
+background-color: transparent!important;
+}
